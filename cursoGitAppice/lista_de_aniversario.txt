@@ -17,24 +17,33 @@ git status
 o arquivo está pronto para envio ao repositório
 git commit -m "descrevaOqueVoceFezDeManeiraObjetiva"
 comentarios
-git commit -am ""
+git commit -am "descrevaOqueVoceFezDeManeiraObjetiva" = > simplifica o trabalho 
+< REPO >
+git remote add origin https://github.com/eduardopatrick/curso-git-appice.git
 < PUSH >
-git push nomeDoRepoDesejado 
+git push nomeDoRepoDesejado nomeDaBranchDesejada
 < PULL >
+git pull
 < RESET >
+git log
+git reset {(
+    --soft : --mixed : --hard
+)}
 < STASH >
+
 < BRANCH >
+Ramificação de uma etapa do projeto
+
 git checkout -b nomeDaAtividade
 Se a branch já existir
 git checkout
 comentarios
-git push nomeDoRepoDesejado nomeDaBranchDesejada
+
 
 
 Lista de aniversario
 
 Arnaldo
 Julia
-Edson
 Kauwan
 Jobson
