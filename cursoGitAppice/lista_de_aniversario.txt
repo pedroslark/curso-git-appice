@@ -1,0 +1,32 @@
+Armazenamento Local - nós atualmente
+Armazenamento Central - *1 local* para armazenar o arquivo base do projeto  e suas versões + clientes (desenvolvedores) que poderiam baixar desse local as configurações e utilizar.
+Controle de versão atual - Git - *armazenar versões daquele projeto em um repositório base* && replicar todas as informações para os repositórios dos (clientes), com isso a gente tem uma melhoria dos critérios de manutenção do código, por que?
+- As informações guardadas em cada máquina que já pegou informações das versões daquele projeto.
+
+< INIT >
+git init
+< ADD >
+git add nomeDoArquivo||nomeDoCaminhoParaArquivos
+< COMMIT >
+git commit -m "descrevaOqueVoceFezDeManeiraObjetiva"
+comentarios
+< PUSH >
+git push nomeDoRepoDesejado 
+< PULL >
+< RESET >
+< STASH >
+< BRANCH >
+git checkout -b nomeDaAtividade
+Se a branch já existir
+git checkout
+comentarios
+git push nomeDoRepoDesejado nomeDaBranchDesejada
+
+
+Lista de aniversario
+
+Arnaldo
+Braulio
+Andressa
+Rui
+Edson
