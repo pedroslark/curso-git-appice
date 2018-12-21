@@ -6,10 +6,18 @@ Controle de versão atual - Git - *armazenar versões daquele projeto em um repo
 < INIT >
 git init
 < ADD >
+o arquivo agora é conhecido pelo git
 git add nomeDoArquivo||nomeDoCaminhoParaArquivos
+não fazer {
+    git add . || git add --all 
+}
+< STATUS >
+git status
 < COMMIT >
+o arquivo está pronto para envio ao repositório
 git commit -m "descrevaOqueVoceFezDeManeiraObjetiva"
 comentarios
+git commit -am ""
 < PUSH >
 git push nomeDoRepoDesejado 
 < PULL >
@@ -26,7 +34,6 @@ git push nomeDoRepoDesejado nomeDaBranchDesejada
 Lista de aniversario
 
 Arnaldo
-Braulio
-Andressa
-Rui
+Julia
 Edson
+Kauwan
