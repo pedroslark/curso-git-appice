@@ -1,4 +1,5 @@
 Armazenamento Local - nós atualmente
+
 Armazenamento Central - *1 local* para armazenar o arquivo base do projeto  e suas versões + clientes (desenvolvedores) que poderiam baixar desse local as configurações e utilizar.
 Controle de versão atual - Git - *armazenar versões daquele projeto em um repositório base* && replicar todas as informações para os repositórios dos (clientes), com isso a gente tem uma melhoria dos critérios de manutenção do código, por que?
 - As informações guardadas em cada máquina que já pegou informações das versões daquele projeto.
@@ -9,26 +10,32 @@ git init
 o arquivo agora é conhecido pelo git
 git add nomeDoArquivo||nomeDoCaminhoParaArquivos
 não fazer {
-    git add . || git add --all 
+    git add . || git add --all
 }
 < STATUS >
 git status
+
 < COMMIT >
 o arquivo está pronto para envio ao repositório
-git commit -m "descrevaOqueVoceFezDeManeiraObjetiva"
+git commit -m "descrevaOqueVoceFezDeManeiraObjetiva" (ex: git commit -m "datas de aniversário adicionadas")
 comentarios
-git commit -am "descrevaOqueVoceFezDeManeiraObjetiva" = > simplifica o trabalho 
+git commit -am "descrevaOqueVoceFezDeManeiraObjetiva" = > simplifica o trabalho
+
 < REPO >
 git remote add origin https://github.com/eduardopatrick/curso-git-appice.git
+
 < PUSH >
 git push nomeDoRepoDesejado nomeDaBranchDesejada
+
 < PULL >
 git pull
+
 < RESET >
 git log
 git reset {(
     --soft : --mixed : --hard
 )}
+
 < STASH >
 
 < BRANCH >
@@ -38,8 +45,6 @@ git checkout -b nomeDaAtividade
 Se a branch já existir
 git checkout
 comentarios
-
-
 
 Lista de aniversario
 
